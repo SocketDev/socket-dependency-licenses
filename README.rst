@@ -46,14 +46,14 @@ How to run
 Env Variables
 """""""""""""
 
-============= =========== =================== ====== ========================================
-Environment   option      default             type   description
-============= =========== =================== ====== ========================================
-SOCKET_API     key         None                string Socket API Key
-SOCKET_CONFIG  output_file dependency_info.csv string Name of the output file
-SOCKET_CONFIG  wait_time   0                   int    Amount of time to wait when rate limited
-SOCKET_CONFIG  limit       1000                int    Maximum results from the dependency API
-============= =========== =================== ====== ========================================
+============= =========== ==================== ====== =========================================
+Environment   option      default              type   description
+============= =========== ==================== ====== =========================================
+SOCKET_API    key         None                 string Socket API Key
+SOCKET_CONFIG output_file dependency_info.csv  string Name of the output file
+SOCKET_CONFIG wait_time   0                    int    Amount of time to wait when rate limited
+SOCKET_CONFIG limit       1000                 int    Maximum results from the dependency API
+============= =========== ==================== ====== =========================================
 
 Importing Dependencies
 """"""""""""""""""""""

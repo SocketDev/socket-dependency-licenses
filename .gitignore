@@ -1,0 +1,9 @@
+*.json
+*.zip
+*.large
+*.db
+sqlite.py
+*.csv
+venv
+.idea
+.DS_Store
